@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iEventSpace - Roadshow Events</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Typography */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: 600;
+        }
+
+        /* Layout */
+        header, main, footer {
+            padding: 20px;
+        }
+
+        /* Background theme */
+        body {
+            background-color: #f5f5f5;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 15px 20px;
+        }
+
+        nav h1 {
+            color: #fff;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 8px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #444;
+        }
+
+        /* Hero section */
+        .hero {
+            background-image: url('hero-background.jpg');
+            background-size: cover;
+            background-position: center center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .hero h2 {
+            font-size: 3em;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+        }
+
+        /* Sections */
+        section {
+            margin-bottom: 40px;
+        }
+
+        section h2 {
+            margin-bottom: 20px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            font-size: 0.9em;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>iEventSpace</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div>
+                <h2>iEventSpace</h2>
+                <p>Your one-stop solution for roadshow events</p>
+            </div>
+        </section>
+
+        <!-- Introduction -->
+<section id="introduction">
+    <h2>Welcome to iEventSpace</h2>
+    <p>
+        iEventSpace is a leading roadshow events company that specializes in creating impactful and memorable experiences. We pride ourselves on our ability to bring innovative ideas to life, and our commitment to delivering exceptional results for our clients. With a team of experienced professionals, we provide end-to-end event management solutions tailored to your unique needs.
+    </p>
+</section>
+
+<!-- About Us -->
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        Founded in 2022, iEventSpace has grown to become a trusted partner for businesses looking to engage their audience through interactive roadshow events. Our team consists of passionate and dedicated professionals with expertise in event planning, production, marketing, and logistics. We believe in the power of live events to create lasting connections and drive business growth.
+    </p>
+    <p>
+        Our mission is to help our clients achieve their objectives by delivering unforgettable experiences that captivate their audience and leave a lasting impression. We are committed to providing unparalleled customer service, creative solutions, and seamless execution to ensure the success of every event we produce.
+    </p>
+</section>
+
+<!-- Services -->
+<section id="services">
+    <h2>Services</h2>
+    <p>At iEventSpace, we offer a comprehensive range of roadshow event services, including:</p>
+    <ul>
+        <li><strong>Event Planning:</strong> Our expert team will work closely with you to develop a strategic event plan that aligns with your goals and objectives.</li>
+        <li><strong>Event Production:</strong> From concept to execution, we handle every aspect of event production, including staging, audiovisual, lighting, and special effects.</li>
+        <li><strong>Marketing & Promotion:</strong> We create targeted marketing campaigns to generate buzz and drive attendance, leveraging both traditional and digital channels.</li>
+        <li><strong>Interactive Experiences:</strong> We design and implement engaging, interactive experiences that capture your audience's attention and encourage participation.</li>
+    </ul>
+</section>
+
+<!-- Portfolio -->
+<section id="portfolio">
+    <h2>Portfolio</h2>
+    <p>Take a look at some of the successful roadshow events:</p>
+    
+    <div class="portfolio-item">
+        <img src="event1.jpg" alt="Event 1" width="300" height="200">
+    
+    <div class="portfolio-item">
+        <img src="event2.jpg" alt="Event 2" width="300" height="200">
+      
+    </div>
+
+    <!-- Add more images and descriptions of your past events here -->
+
+</section>
+
+    </section>
+
+    <!-- Your other HTML sections -->
+</body>
+
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>At iEventSpace, we are dedicated to creating memorable roadshow events that drive engagement and deliver results. With years of experience, our team of event professionals is ready to bring your vision to life.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+    <p>
+        If you have any questions, inquiries, or would like to discuss your next roadshow event, please don't hesitate to get in touch with us. We'd be happy to help you create a memorable and engaging experience for your audience.
+    </p>
+    <p>
+        <strong>Email:</strong> <a href="mailto:enquiry@ieventspace.com">enquiry@ieventspace.com</a>
+    </p>
+</section>
+            <form action="mailto:enquiry@ieventspace.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 iEventSpace. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
